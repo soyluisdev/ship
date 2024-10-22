@@ -18,7 +18,7 @@ pip install pygame
 5. ship.py  
 
 ## How to Play
-Run the command:
+Run the command:  
 python alien_invasion.py
 
 ## License
