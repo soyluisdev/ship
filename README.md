@@ -1,6 +1,7 @@
 # Python ship game
 
 This is a 2D space shooter game developed in Python3 using the `pygame` library. The player controls a spaceship, shoots bullets, and fights off aliens.
+![Python ship game](/images/doc/py_ship.png)
 
 ## Requirements
 
