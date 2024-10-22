@@ -8,7 +8,6 @@ This is a 2D space shooter game developed in Python3 using the `pygame` library.
 - Pygame library
 
 Install the dependencies with:
-```bash
 pip install pygame
 
 ## Game files
