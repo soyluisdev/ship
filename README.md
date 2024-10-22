@@ -23,5 +23,5 @@ python alien_invasion.py
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.  
 Feel free to modigy it based on any additional details!.
