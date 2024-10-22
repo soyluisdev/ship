@@ -8,7 +8,7 @@ class Ship():
         self.ai_settings = ai_settings
         
         #Generate ship and create its rect.
-        self.image = pygame.image.load('images/ship_1.png')
+        self.image = pygame.image.load('images/ship.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
@@ -26,11 +26,11 @@ class Ship():
 
     def update(self):
         """Update ship coordinates using keyboard"""
-        if self.moving_right:
+        if self.moving_right and self.rect.right < self.screen_rect.right:
             self.center += self.ai_settings.ship_speed_factor
 
 
-        if self.moving_left:
+        if self.moving_left and self.rect.left > 0:
             self.center -= self.ai_settings.ship_speed_factor
 
 
